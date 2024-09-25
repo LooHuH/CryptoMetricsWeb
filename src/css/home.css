@@ -1,0 +1,291 @@
+.main-preblock {
+    height: 150px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 90%;
+    display: flex;
+}
+
+.main-left-side {
+    margin-right: auto;
+}
+
+.main-text {
+    font-size: 22pt;
+    font-weight: bold;
+    margin-block: 0;
+}
+
+.main-subtext {
+    font-size: 14pt;
+    font-weight: normal;
+    color: #939393;
+    margin-block: 0;
+    margin-top: 5px;
+}
+
+.main-right-side {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.MV-block {
+    width: 250px;
+    height: 80px;
+    background-color: #090909;
+    border-radius: 10px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.MV-block.green {
+    background-color: #0b150a;
+}
+
+.MV-block.red {
+    background-color: #180908;
+}
+
+.MV-label-percentage {
+    display: flex;
+}
+
+.MV-label {
+    font-size: 14pt;
+    font-weight: lighter;
+    color: #b0b0b0;
+    margin-bottom: 8px;
+    margin-right: 12px;
+}
+
+.MV-percentage-background {
+    width: 80px;
+    height: 30px;
+    background-color: #121212;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MV-percentage-background.green {
+    background-color: #142814;
+}
+
+.MV-percentage-background.red {
+    background-color: #2E110F;
+}
+
+.MV-percentage-arrow {
+    width: 10px;
+    margin-right: 6px;
+}
+
+.MV-percentage-text {
+    font-size: 12pt;
+    font-weight: normal;
+    color: #b0b0b0;
+    display: flex;
+}
+
+.MV-percentage-text.green {
+    color: green;
+}
+
+.MV-percentage-text.red {
+    color: red;
+}
+
+.MV-value {
+    font-size: 16pt;
+}
+
+.coins-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.coins-block {
+    width: 90%;
+    background-color: #121212;
+    border-radius: 10px;
+    overflow: scroll clip;
+}
+
+.coins-block::-webkit-scrollbar {
+    width: 40px;
+}
+
+.coins-block::-webkit-scrollbar-track {
+    background: #121212;
+    border-radius: 20px;
+}
+
+.coins-block::-webkit-scrollbar-thumb {
+    width: 10px;
+    background: rgba(93, 93, 93, 0.5);
+    border-radius: 10px;
+    border: 5px solid #121212;
+}
+
+.coins-list-separator {
+    background-color: black;
+    width: auto;
+    height: 15px;
+}
+
+.coins-list-tile {
+    color: white;
+    height: 50px;
+    display: flex;
+    padding-left: 22px;
+    padding-right: 10px;
+    align-items: center;
+    font-size: 13pt;
+    text-decoration: none;
+}
+
+.coins-list-tile:hover {
+    background-color: #252525;
+    cursor: pointer;
+}
+
+.coins-list-tile.alt {
+    opacity: 50%;
+    font-size: 12pt;
+}
+
+.coins-list-tile.alt:hover {
+    background-color: #121212;
+    cursor: default;
+}
+
+.coins-list-coin-rank {
+    width: 2%;
+    min-width: 20px;
+    height: 10px;
+    display: flex;
+    margin: 10px 20px 10px 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.coins-list-coin-base-info-container {
+    width: 25%;
+    min-width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.coins-list-coin-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 16px;
+}
+
+.coins-list-coin-name {
+    margin-right: 8px;
+}
+
+.coins-list-coin-symbol {
+    font-size: 10pt;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.coins-list-coin-percentage-container {
+    width: 25%;
+    min-width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.coins-list-coin-percentage-block {
+    min-width: 70px;
+    height: 30px;
+    margin: 4%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.coins-list-coin-percentage-block.green {
+    background-color: #142814;
+}
+
+.coins-list-coin-percentage-block.red {
+    background-color: #2E110F;
+}
+
+.coins-list-info-percentage-arrow {
+    width: 8px;
+    margin-right: 6px;
+}
+
+.coins-list-coin-percentage-text {
+    font-size: 10pt;
+    font-weight: normal;
+    color: #b0b0b0;
+    display: flex;
+}
+
+.coins-list-coin-percentage-text.green {
+    color: green;
+}
+
+.coins-list-coin-percentage-text.red {
+    color: red;
+}
+
+.coins-list-coin-PMV-container {
+    width: 20%;
+    min-width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.coins-list-coin-PMV-value {
+    width: 20%;
+    min-width: 100px;
+    justify-content: right;
+    display: flex;
+    margin: 7%;
+}
+
+.coins-list-coin-charts-container {
+    width: 23%;
+    min-width: 150px;
+    height: 50px;
+    margin-left: 5%;
+    display: flex;
+    justify-self: right;
+    justify-content: center;
+    align-items: center;
+}
+
+.coins-list-coin-charts {
+    max-width: 200px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+}

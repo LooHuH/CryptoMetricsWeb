@@ -1,0 +1,17 @@
+@keyframes showWindow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes updateBlink {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 85%;
+    }
+}

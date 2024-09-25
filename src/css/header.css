@@ -1,0 +1,120 @@
+.header {
+    background-color: #181818;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    left: 0;
+    margin-top: 21px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 10;
+    border-top: solid #333333 1px;
+}
+
+.logo {
+    height: 40px;
+    offset-anchor: left top;
+    aspect-ratio: 1;
+    display: flex;
+}
+
+.header-menu-items-container {
+    width: 100px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.header-menu-item {
+    font-size: 14pt;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+    font-weight: lighter;
+    transition: font-weight 0.2s ease-out;
+    cursor: pointer;
+}
+
+.header-menu-item.hovered {
+    font-weight: normal;
+}
+
+.header-menu-item.active {
+    font-weight: bold;
+}
+
+.header-menu-item-underline {
+    background-color: #83be1c;
+    width: 0;
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    top: 11px;
+    border-radius: 20px;
+    transition: width 0.2s ease-out;
+}
+
+.header-menu-item-underline.hovered {
+    width: 70%;
+}
+
+.header-menu-item-underline.active {
+    width: 130%;
+}
+
+.expanding-menu-button-container {
+    width: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.expanding-menu-button {
+    width: 40px;
+    height: 25px;
+    stroke-width: 2;
+    color: white;
+    transition:
+            stroke-width 0.2s ease-out,
+            color 0.2s ease;
+}
+
+.expanding-menu-button.hovered {
+    stroke-width: 3;
+}
+
+.expanding-menu-button.active {
+    stroke-width: 3;
+    color: #83be1c;
+}
+
+.expanding-menu-container {
+    padding-top: 20px;
+    display: flex;
+    position: fixed;
+}
+
+.expanding-menu-container.hidden {
+    padding-top: 0;
+    transition: padding-top 0.2s;
+    transition-delay: 0.2s;
+}
+
+.expanding-menu {
+    background-color: #121212;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    transition: height 0.2s ease;
+}
+
+.expanding-menu.hidden {
+    height: 0;
+}
